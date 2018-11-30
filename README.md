@@ -39,14 +39,17 @@ From these payloads the malicious DNS script will be able to create and fill the
 
 
 
-CONFIGURE DNS QUERY FORWARDER:
 
+
+CONFIGURE DNS QUERY FORWARDER:
 If you as me can not go to the Delegation Authority to become authoritative for a certain domain, You have to configure a VPS like a DNS query forwarder. I have used 'dnsmasq' demon, you have to configure it:
 	
 	Open /etc/dnsmasq.conf and append:
 		log-queries
 		log-facility=/tmp/dnsmasq.log
 	These tells dnsmasq to save all the DNS query in a specific file that will be read by the DNS server side script
+
+
 
 
 
@@ -57,7 +60,6 @@ HOW TO RUN:
 4) To have a try, run on the DNS server "composer.py" and then run(or make it run) "exfiltrator.py" script on the victim machine.
 5) Wait  
 
+As you can see, the malwares script wait 1 second for each query and wait 1 second for each file passed through the file system. These wait are here because i tested this on my slow VPS... you can remove these waiting or keep it, it depends on how much you want be loud.
 
-
-
-
+As you can see from the code this script supports 1 attack settion
