@@ -2,7 +2,7 @@
 
 I do not take any responsibility for your usage
 
-**First you need to know how a DNS work and what DNS Exfiltration stands for...**
+**First you need to know how a DNS works and what DNS Exfiltration stands for...**
 
 There are two scripts:
 	
