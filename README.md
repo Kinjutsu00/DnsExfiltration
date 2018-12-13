@@ -41,7 +41,7 @@ From these payloads the malicious DNS script will be able to create and fill the
 
 
 
-# CONFIGURE DNS QUERY FORWARDER:
+## CONFIGURE DNS QUERY FORWARDER:
 If you as me can not go to the Delegation Authority to become authoritative for a certain domain, You have to configure a VPS like a DNS query forwarder. I have used 'dnsmasq' demon, you have to configure it:
 	
 	Open /etc/dnsmasq.conf and append:
@@ -53,7 +53,7 @@ If you as me can not go to the Delegation Authority to become authoritative for 
 
 
 
-# HOW TO RUN:
+## HOW TO RUN:
 1) Add your domain or the VPS IP in the "exfiltrator.py" malware script.
 2) If you are authoritative configure your DNS, if you are not I suggest You to create a VPS and configure dnsmaq as I explain before.
 3) Configure the right path in the "composer.py" DNS side script. You have to tell the script where It has to read all the query log. Just to be sure you have understood: Write the path You have set in the DNS configuration or dnsmasq configuration.
