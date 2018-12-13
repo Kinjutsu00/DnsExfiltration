@@ -1,6 +1,6 @@
 # DnsExfiltration
 
-I do not take any responsibility of your usage
+I do not take any responsibility for your usage
 
 There are two scripts:
 	
