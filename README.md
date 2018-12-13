@@ -2,6 +2,8 @@
 
 I do not take any responsibility for your usage
 
+**First you need to know how a DNS work and what DNS Exfiltration stands for...**
+
 There are two scripts:
 	
 	1) Malware script that steal all the files from the PC that runs it
@@ -57,9 +59,9 @@ If you as me can not go to the Delegation Authority to become authoritative for 
 1) Add your domain or the VPS IP in the "exfiltrator.py" malware script.
 2) If you are authoritative configure your DNS, if you are not I suggest You to create a VPS and configure dnsmaq as I explain before.
 3) Configure the right path in the "composer.py" DNS side script. You have to tell the script where It has to read all the query log. Just to be sure you have understood: Write the path You have set in the DNS configuration or dnsmasq configuration.
-4) To have a try, run on the DNS server "composer.py" and then run(or make it run) "exfiltrator.py" script on the victim machine.
-5) Wait  
+4) To have a try, run on the DNS server "composer.py" (**python composer.py**) and then run(or make it run) "exfiltrator.py" (**python exfiltrator.py**) script on the victim machine.
+5) Wait and see 
 
 As you can see, the malwares script wait 1 second for each query and wait 1 second for each file passed through the file system. These wait are here because i tested this on my slow VPS... you can remove these waiting or keep it, it depends on how much you want be loud.
 
-As you can see from the code this script supports 1 attack settion
+As you can see from the code, this script supports 1 attack at the same time. This script does not currently work on Windows Systems because Windows use "\" in paths, while here i use "/" (...because i wrote and tested this on Linux...). So if you want to use this on windows make the correct very easy changes... lol 
