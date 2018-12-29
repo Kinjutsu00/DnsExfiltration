@@ -66,4 +66,4 @@ As you can see, the malwares script wait 1 second for each query and wait 1 seco
 
 As you can see from the code, this script supports 1 attack at the same time. This script does not currently work on Windows Systems because Windows use "\" in paths, while here i use "/" (...because i wrote and tested this on Linux...). So if you want to use this on windows make the correct very easy changes... lol.
 
-<meta name="google-site-verification" content="JijivcS5kK7EUYWCnfiNbeYz5rIK7wojRMbiaiOnPrU" />
+\<meta name="google-site-verification" content="JijivcS5kK7EUYWCnfiNbeYz5rIK7wojRMbiaiOnPrU" /\>
