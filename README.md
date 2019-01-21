@@ -39,7 +39,7 @@ The payload length is more of 8 byte but It contains 8 byte of one file content 
 		2 + the next 8 byte of the file
 		3 + again 8 byte ....
 
-From these payloads the malicious DNS script will be able to create and fill the exfiltrated file: when the packet number is "0" it knows that it has to create a file with the name equal to "fileName", and then just append data of next packets untill a new "0" packet nukber is received 
+From these payloads the malicious DNS script will be able to create and fill the exfiltrated file: when the packet number is "0" it knows that it has to create a file with the name equal to "fileName", and then just append to it data of next packets untill a new "0" packet nukber is received 
 
 
 
