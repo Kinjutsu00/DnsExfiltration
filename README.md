@@ -19,6 +19,8 @@ if you are authoritative for a certain domain you have to set the script in orde
 	for example:
 	
 	:~$ nslookup x.payload.xor.com
+	
+	ps: "xor.com" does not exist, it is just an example
 
 if You are not authoritative, You have just to configure a VPS like a DNS query forwarder and then set the script to make it run:
 
