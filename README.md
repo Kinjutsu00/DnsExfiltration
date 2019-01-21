@@ -64,5 +64,5 @@ If you as me can not go to the Delegation Authority to become authoritative for 
 
 As you can see, the malware script wait 1 second for each query and wait 1 second for each file passed through the file system. These wait are here because i tested this on my slow VPS... you can remove these waiting or keep it, it depends on how much you want be loud.
 
-As you can see from the code, this script supports 1 attack at the same time. This script does not currently work on Windows Systems because Windows use "\\" in paths, while here i use "/" (...because i wrote and tested this on Linux...). So if you want to use this on windows make the correct very easy changes... lol.
+As you can see from the code, this script supports 1 attack at the same time. This script does not currently work on Windows Systems because Windows use "\\" in paths, while here i use "/" (...because i wrote and tested this on and for Linux...). So if you want to use this on windows make the correct very easy changes... lol.
 
