@@ -33,7 +33,7 @@ if You are not authoritative, You have just to configure a VPS like a DNS query 
 
 The payload length is more of 8 byte but It contains 8 byte of one file content + the file part number, the file part number (just like an offset) is used to recompose the file parts on the DNS:
 	
-	A payload may be one of this:
+	A payload may be one of these:
 		0 + fileName
 		1 + first 8 byte of the file
 		2 + the next 8 byte of the file
