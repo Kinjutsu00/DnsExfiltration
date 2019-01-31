@@ -78,7 +78,7 @@ while True:
             print("This is data: " + unhexlify(data))
             creator(partnumber, data)
 
-    sleep(10)
+    sleep(10) # Wait 10 second before re-check logs 
 
 
 
